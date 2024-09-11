@@ -11,6 +11,8 @@
 		06AF077E2C91B45D0042AAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF077D2C91B45D0042AAE1 /* ContentView.swift */; };
 		06AF07802C91B45F0042AAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AF077F2C91B45F0042AAE1 /* Assets.xcassets */; };
 		06AF07832C91B45F0042AAE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AF07822C91B45F0042AAE1 /* Preview Assets.xcassets */; };
+		06AF078A2C91B8FC0042AAE1 /* Hotspot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF07892C91B8FC0042AAE1 /* Hotspot.swift */; };
+		06AF078C2C91BE430042AAE1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF078B2C91BE430042AAE1 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		06AF077D2C91B45D0042AAE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06AF077F2C91B45F0042AAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06AF07822C91B45F0042AAE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06AF07892C91B8FC0042AAE1 /* Hotspot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotspot.swift; sourceTree = "<group>"; };
+		06AF078B2C91BE430042AAE1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				06AF077B2C91B45D0042AAE1 /* SafeHerApp.swift */,
 				06AF077D2C91B45D0042AAE1 /* ContentView.swift */,
+				06AF07892C91B8FC0042AAE1 /* Hotspot.swift */,
+				06AF078B2C91BE430042AAE1 /* LoginView.swift */,
 				06AF077F2C91B45F0042AAE1 /* Assets.xcassets */,
 				06AF07812C91B45F0042AAE1 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AF078A2C91B8FC0042AAE1 /* Hotspot.swift in Sources */,
 				06AF077E2C91B45D0042AAE1 /* ContentView.swift in Sources */,
 				06AF077C2C91B45D0042AAE1 /* SafeHerApp.swift in Sources */,
+				06AF078C2C91BE430042AAE1 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
